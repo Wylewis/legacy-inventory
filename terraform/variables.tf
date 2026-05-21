@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "instance_type" {
   description = "Tipo de instancia EC2"
   type        = string
-  default     = "t2.micro"
+  default     = "t3.micro"
 }
 
 variable "app_port" {
@@ -19,5 +19,5 @@ variable "app_port" {
 variable "my_ip" {
   description = "Tu IP para acceso restringido"
   type        = string
-  default     = "0.0.0.0/0"
+  default     = "190.104.20.155/32"
 }
