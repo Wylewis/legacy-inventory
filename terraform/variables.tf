@@ -19,5 +19,5 @@ variable "app_port" {
 variable "my_ip" {
   description = "Tu IP para acceso restringido"
   type        = string
-  default     = "190.104.20.155/32"
+  default     = "190.104.20.154/32"
 }
